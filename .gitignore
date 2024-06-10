@@ -1,6 +1,7 @@
 build
 # Prerequisites
 *.d
+.xmake
 
 # Object files
 *.o
