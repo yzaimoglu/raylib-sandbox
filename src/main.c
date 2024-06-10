@@ -35,7 +35,7 @@ int main(void) {
   }
 
   DisableCursor(); // Limit cursor to relative movement inside the window
-  SetExitKey(KEY_BACKSLASH);
+  SetExitKey(KEY_F9);
   SetTargetFPS(60); // Set our game to run at 60 frames-per-second
 
   // Main game loop
