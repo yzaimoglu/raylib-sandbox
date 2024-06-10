@@ -2,6 +2,7 @@ build
 # Prerequisites
 *.d
 .xmake
+.cache
 
 # Object files
 *.o
