@@ -1,0 +1,142 @@
+{
+    tool_platform_linux_x86_64_ld = {
+        toolname = "gxx",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/g++"
+    },
+    tool_platform_linux_x86_64_sh = {
+        toolname = "gxx",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/g++"
+    },
+    tool_platform_linux_x86_64_mxx = {
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc"
+    },
+    tool_platform_linux_x86_64_as = {
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc"
+    },
+    tool_platform_linux_x86_64_ar = {
+        toolname = "ar",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/ar"
+    },
+    ["tool_target_raylib-sandbox_linux_x86_64_ld"] = {
+        toolname = "gxx",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/g++"
+    },
+    tool_platform_linux_x86_64_gc = {
+        toolname = "go",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "go",
+            cachekey = "go_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/go"
+    },
+    tool_platform_linux_x86_64_cxx = {
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc"
+    },
+    ["tool_target_raylib-sandbox_linux_x86_64_cc"] = {
+        toolname = "gcc",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/gcc"
+    },
+    tool_platform_linux_x86_64_gcld = {
+        toolname = "go",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "go",
+            cachekey = "go_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/go"
+    },
+    tool_platform_linux_x86_64_mm = {
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc"
+    },
+    tool_platform_linux_x86_64_cc = {
+        toolname = "gcc",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/gcc"
+    },
+    tool_platform_linux_x86_64_gcar = {
+        toolname = "go",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "go",
+            cachekey = "go_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/go"
+    },
+    tool_platform_linux_x86_64_cu = {
+        toolname = "clang",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "cuda",
+            cachekey = "cuda_arch_x86_64_plat_linux",
+            plat = "linux"
+        },
+        program = "/usr/bin/clang"
+    }
+}
